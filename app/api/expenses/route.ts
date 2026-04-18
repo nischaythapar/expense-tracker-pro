@@ -1,4 +1,4 @@
-﻿import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 import { expenseSchema } from '@/lib/validations';
 import { ZodError } from 'zod';

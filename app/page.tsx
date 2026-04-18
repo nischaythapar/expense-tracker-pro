@@ -1,4 +1,4 @@
-﻿import AddExpense from '@/components/AddExpense';
+import AddExpense from '@/components/AddExpense';
 import Dashboard from '@/components/Dashboard';
 import ExpenseList from '@/components/ExpenseList';
 import { getExpenses, getSummary, getCategories, getTrends } from '@/services/expense.service';

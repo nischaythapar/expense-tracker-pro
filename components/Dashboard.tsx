@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { PieChart, Pie, Cell, LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import type { CategoryData, TrendData } from '@/services/expense.service';
 

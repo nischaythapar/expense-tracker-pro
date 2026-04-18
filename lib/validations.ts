@@ -1,4 +1,4 @@
-﻿import { z } from 'zod';
+import { z } from 'zod';
 
 export const expenseSchema = z.object({
   amount: z.coerce.number().positive("Amount must be greater than 0"),
